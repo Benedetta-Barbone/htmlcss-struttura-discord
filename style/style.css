@@ -7,7 +7,7 @@
 body{
     width: 65%;
     margin: auto;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -21,6 +21,25 @@ header{
 .intestazione{
     display: flex;
     flex-wrap: wrap;
+    color: white;
+}
+
+button{
+    border-radius: 25%;
+    padding: 0.6rem 0.8rem;
+    font-size: 12px;
+    border: none;
+}
+
+.btn-white{
+    color: black;
+    background-color: white;
+  
+}
+
+.btn-black{
+    color: white;
+    background-color: #23272a;
 }
 
 ul{
@@ -34,15 +53,20 @@ ul>li{
 
 .download{
     text-align: center;
-    padding: 5rem 15rem;
-    background-image: ..;
+    padding: 5rem 11rem 2rem;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    color: white;
 }
 
 .padding{
-    padding: 2rem 0rem;
+    padding: 0.3rem 0rem;
 }
 
-
+h1{
+    font-size: 35px;
+    padding-bottom: 1.5rem;
+}
 
 .container{
     display: flex;
