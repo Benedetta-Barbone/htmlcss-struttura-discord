@@ -38,3 +38,27 @@ ul>li{
 .padding{
     padding: 2rem 0rem;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(78, 78, 120);
+    flex-direction: column;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100%;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.column{
+    flex-direction: column;
+}
